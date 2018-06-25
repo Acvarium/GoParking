@@ -15,4 +15,3 @@ func _process(delta):
 	ray.force_raycast_update()
 	if ray.is_colliding():
 		cursor3D = ray.get_collision_point()
-#		get_node("../car").translation = ray.get_collision_point()
