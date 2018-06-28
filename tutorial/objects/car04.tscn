@@ -1,17 +1,17 @@
 [gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://scripts/car.gd" type="Script" id=1]
-[ext_resource path="res://models/car_00.tscn" type="PackedScene" id=2]
+[ext_resource path="res://models/car_04.tscn" type="PackedScene" id=2]
 
 [sub_resource type="BoxShape" id=1]
 
-extents = Vector3( 0.943777, 0.3, 0.42997 )
+extents = Vector3( 1.47185, 0.3, 0.443727 )
 
 [sub_resource type="BoxShape" id=2]
 
-extents = Vector3( 0.956361, 0.205699, 0.437521 )
+extents = Vector3( 1.48653, 0.205699, 0.45 )
 
-[node name="car" type="KinematicBody"]
+[node name="car" type="KinematicBody" index="0"]
 
 input_ray_pickable = true
 input_capture_on_drag = true
@@ -27,15 +27,13 @@ collision/safe_margin = 0.001
 script = ExtResource( 1 )
 _sections_unfolded = [ "Axis Lock", "Collision" ]
 
-[node name="car_00" parent="." index="0" instance=ExtResource( 2 )]
+[node name="CollisionShape" type="CollisionShape" parent="." index="0"]
 
-[node name="CollisionShape" type="CollisionShape" parent="." index="1"]
-
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0201337, 0.340053, 0 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5, 0.340053, 0 )
 shape = SubResource( 1 )
 disabled = false
 
-[node name="Area" type="Area" parent="." index="2"]
+[node name="Area" type="Area" parent="." index="1"]
 
 input_ray_pickable = false
 input_capture_on_drag = false
@@ -60,9 +58,13 @@ reverb_bus_uniformity = 0.0
 
 [node name="CollisionShape2" type="CollisionShape" parent="Area" index="0"]
 
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0151004, 0.280361, 0 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5, 0.280361, 0 )
 shape = SubResource( 2 )
 disabled = false
+
+[node name="car_04" parent="." index="2" instance=ExtResource( 2 )]
+
+transform = Transform( 1.02338, 0, 0, 0, 1, 0, 0, 0, 0.948756, -0.0698779, 0, 0 )
 
 [connection signal="input_event" from="." to="." method="_on_car_input_event"]
 

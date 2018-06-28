@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (unknown)"
+   sodipodi:docname="crashed.svg">
+  <defs
+     id="defs2">
+    <marker
+       inkscape:stockid="Arrow2Sstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Sstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1041"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#ffffff;stroke-opacity:1;fill:#ffffff;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(0.3) translate(-2.3,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker1295"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1293"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#ffffff;stroke-opacity:1;fill:#ffffff;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(0.6) translate(0,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Mstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1035"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#ffffff;stroke-opacity:1;fill:#ffffff;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(0.6) translate(0,0)" />
+    </marker>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient858">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop854" />
+      <stop
+         style="stop-color:#4a4a4a;stop-opacity:0.99640936"
+         offset="1"
+         id="stop856" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient858"
+       id="linearGradient860"
+       x1="89.000755"
+       y1="127.28385"
+       x2="89.000755"
+       y2="172.45239"
+       gradientUnits="userSpaceOnUse" />
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter1003"
+       x="-0.1413284"
+       width="1.2826568"
+       y="-0.2571227"
+       height="1.5142454">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="13.629677"
+         id="feGaussianBlur1005" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#696969"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="455.89925"
+     inkscape:cy="630.2952"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1055"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:snap-global="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <image
+       y="46.635414"
+       x="-64.597916"
+       id="image831"
+       xlink:href="file:///home/vit/%D0%9A%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8/screen/scr2018-06-26-11:22:20.png"
+       preserveAspectRatio="none"
+       height="203.72917"
+       width="339.19583" />
+    <ellipse
+       style="opacity:0.845;vector-effect:none;fill:#000000;fill-opacity:0.99640934;stroke:none;stroke-width:3.02993751;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter1003)"
+       id="path885"
+       cx="105"
+       cy="148.5"
+       rx="115.72771"
+       ry="63.610146"
+       inkscape:export-filename="/home/vit/ProjectG70/godot3/GoParking/tutorial/textures/crashed.png"
+       inkscape:export-xdpi="95.591461"
+       inkscape:export-ydpi="95.591461" />
+    <rect
+       style="opacity:0.47300002;vector-effect:none;fill:#ffffff;fill-opacity:0.99640934;stroke:none;stroke-width:2.98633909;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect862"
+       width="340.17856"
+       height="64.255959"
+       x="-65.089279"
+       y="116.37202"
+       inkscape:export-filename="/home/vit/ProjectG70/godot3/GoParking/tutorial/textures/crashed.png"
+       inkscape:export-xdpi="95.591461"
+       inkscape:export-ydpi="95.591461" />
+    <text
+       id="text836"
+       y="169.40923"
+       x="104.71304"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50.87402344px;line-height:13.2484417px;font-family:sans-serif;-inkscape-font-specification:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:3.02993753;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       xml:space="preserve"
+       inkscape:export-filename="/home/vit/ProjectG70/godot3/GoParking/tutorial/textures/crashed.png"
+       inkscape:export-xdpi="95.591461"
+       inkscape:export-ydpi="95.591461"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Bison;-inkscape-font-specification:Bison;stroke-width:3.02993753;fill:#ffffff;stroke:#ffffff;stroke-miterlimit:4;stroke-dasharray:none"
+         y="169.40923"
+         x="104.71304"
+         id="tspan834"
+         sodipodi:role="line">CRASHED</tspan></text>
+    <rect
+       style="opacity:0.47300002;vector-effect:none;fill:#ffffff;fill-opacity:0.99640934;stroke:none;stroke-width:3.51498485;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect864"
+       width="176.35986"
+       height="66.518059"
+       x="47.465286"
+       y="84.759735"
+       transform="rotate(15)"
+       ry="0"
+       inkscape:export-filename="/home/vit/ProjectG70/godot3/GoParking/tutorial/textures/crashed.png"
+       inkscape:export-xdpi="95.591461"
+       inkscape:export-ydpi="95.591461" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50.87402344px;line-height:13.2484417px;font-family:sans-serif;-inkscape-font-specification:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;opacity:1;vector-effect:none;fill:url(#linearGradient860);fill-opacity:1;stroke:none;stroke-width:0.52993768px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       x="104.71304"
+       y="169.40923"
+       id="text817"
+       inkscape:export-filename="/home/vit/ProjectG70/godot3/GoParking/tutorial/textures/crashed.png"
+       inkscape:export-xdpi="95.591461"
+       inkscape:export-ydpi="95.591461"><tspan
+         sodipodi:role="line"
+         id="tspan815"
+         x="104.71304"
+         y="169.40923"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Bison;-inkscape-font-specification:Bison;stroke-width:0.52993768px;fill-opacity:1;fill:url(#linearGradient860)">CRASHED</tspan></text>
+    <text
+       id="text821"
+       y="38.767712"
+       x="-371.58615"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:39.72478104px;line-height:10.34499359px;font-family:sans-serif;-inkscape-font-specification:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.41379976px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Ashley Script MT Std';-inkscape-font-specification:'Ashley Script MT Std';stroke-width:0.41379976px"
+         y="38.767712"
+         x="-371.58615"
+         id="tspan819"
+         sodipodi:role="line">CRASHED</tspan></text>
+    <rect
+       style="opacity:0;vector-effect:none;fill:#00ffff;fill-opacity:0.99640934;stroke:none;stroke-width:3.85899997;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1416"
+       width="40.624966"
+       height="40.624966"
+       x="282.18695"
+       y="-35.463848" />
+    <path
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.85899997;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="m 288.58351,-2.1243644 c 0.83503,-1.044063 2.05098,-1.831921 3.41262,-2.335675 2.23665,2.85032 5.51237,4.337788 9.94332,4.311014 6.82262,-0.04123 12.87286,-4.674476 14.46464,-11.3089396 2.01406,-8.39449 -4.82529,-20.114941 -16.8313,-18.555127 -3.2026,0.49074 -6.24674,2.012248 -8.59993,4.482052 -1.87942,1.864201 1.26153,2.610713 3.51535,1.222274 8.61908,-5.309674 18.48832,0.654294 14.95959,12.306849 -4.24276,14.0104026 -20.00664,5.1082156 -18.46046,-5.329138 -2.59158,5.403962 -3.22704,11.1423316 -2.40383,15.2066906 z"
+       id="path1007"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccssccsscc" />
+  </g>
+</svg>

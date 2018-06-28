@@ -7,6 +7,10 @@ func _ready():
 	camera = $Camera
 	ray = $Camera/RayCast
 
+func crashed():
+	pass
+#	$UI/crashed.visible = true
+
 func _physics_process(delta):
 	var ray_length = 1000
 	var mouse_pos = get_viewport().get_mouse_position()
@@ -16,3 +20,6 @@ func _physics_process(delta):
 	if ray.is_colliding():
 		cursor_3d = ray.get_collision_point()
 	
+func _on_gate_body_entered(body):
+	if body.is_in_group("main_car"):
+		print("WIN!!!")
