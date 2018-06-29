@@ -1,0 +1,18 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/alarm01.ogg-ac3e9732c27966bc890723cc2a1b2b04.oggstr"
+
+[deps]
+
+source_file="res://sounds/alarm01.ogg"
+source_md5="be8ffed88caec8eb3c30bb43acaab79e"
+
+dest_files=[ "res://.import/alarm01.ogg-ac3e9732c27966bc890723cc2a1b2b04.oggstr" ]
+dest_md5="c0e164198d83c564a4340d204fd050d8"
+
+[params]
+
+loop=true
+loop_offset=0

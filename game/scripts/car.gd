@@ -1,44 +1,33 @@
 extends KinematicBody
-
-var step = 1.0
-export var mouseForward = false
-export var mouseBackword = false
-var s = 0
+var isPressed = false
+var main_node
+var offset = Vector3()
+var mask = Vector3()
 
 func _ready():
-	pass
+	set_physics_process(false)
+	main_node = get_node("/root/main")
+	mask = Vector3(1,0,0).rotated(Vector3(0,1,0), rotation.y).abs()
+	
+func _physics_process(delta):
+	if isPressed:
+		var slideVec = ((main_node.cursor_3d + offset) - translation) * mask * 0.1
+		move_and_collide(slideVec)
 
-func _input(event):
-	if Input.is_action_just_pressed("LMB"):
-		$frontRay.force_raycast_update()
-		$backRay.force_raycast_update()
-		if mouseForward and !$frontRay.is_colliding():
-			move(true)
+func _on_car_input_event(camera, event, click_position, click_normal, shape_idx):
+	if event is InputEventMouseButton:
+		if event.pressed:
+			isPressed = true
+			set_physics_process(true)
+			offset = translation - main_node.cursor_3d
+			Input.set_mouse_mode(Input.MOUSE_MODE_HIDDEN)
+		else:
+			isPressed = false
+			set_physics_process(false)
+			Input.set_mouse_mode(Input.MOUSE_MODE_VISIBLE)
 
-		elif mouseBackword and !$backRay.is_colliding():
-			move(false)
-
-
-func move(forward):
-	if forward:
-		translate(Vector3(-step,0,0))
-	else:
-		translate(Vector3(step,0,0))
-	mouseForward = false
-	mouseBackword = false
-
-func _on_front_mouse_entered():
-	mouseForward = true
-	$aB.visible = true
-
-func _on_front_mouse_exited():
-	mouseForward = false
-	$aB.visible = false
-
-func _on_back_mouse_entered():
-	mouseBackword = true
-	$aF.visible = true
-
-func _on_back_mouse_exited():
-	mouseBackword = false
-	$aF.visible = false
+func _on_Area_body_entered(body):
+	if body != self:
+		isPressed = false
+		set_physics_process(false)
+		main_node.crash()

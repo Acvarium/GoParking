@@ -19,6 +19,30 @@
    sodipodi:docname="crashed.svg">
   <defs
      id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient893">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="0"
+         id="stop889" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1"
+         offset="1"
+         id="stop891" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient885">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="0"
+         id="stop881" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop883" />
+    </linearGradient>
     <marker
        inkscape:stockid="Arrow2Sstart"
        orient="auto"
@@ -95,6 +119,141 @@
          stdDeviation="13.629677"
          id="feGaussianBlur1005" />
     </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient885"
+       id="linearGradient887"
+       x1="100.49334"
+       y1="211.47375"
+       x2="100.49334"
+       y2="268.40216"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.2183099,-2.9122028,-47.838297)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient893"
+       id="linearGradient895"
+       x1="66.015572"
+       y1="287.64557"
+       x2="66.015572"
+       y2="214.41371"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient893"
+       id="linearGradient902"
+       gradientUnits="userSpaceOnUse"
+       x1="66.015572"
+       y1="287.64557"
+       x2="66.015572"
+       y2="214.41371" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient885"
+       id="linearGradient915"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.2183099,-2.9122028,-47.838297)"
+       x1="100.49334"
+       y1="211.47375"
+       x2="100.49334"
+       y2="268.40216" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient893"
+       id="linearGradient917"
+       gradientUnits="userSpaceOnUse"
+       x1="66.015572"
+       y1="287.64557"
+       x2="66.015572"
+       y2="214.41371" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient885"
+       id="linearGradient935"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.2183099,-2.9122028,-47.838297)"
+       x1="100.49334"
+       y1="211.47375"
+       x2="100.49334"
+       y2="268.40216" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient893"
+       id="linearGradient937"
+       gradientUnits="userSpaceOnUse"
+       x1="66.015572"
+       y1="287.64557"
+       x2="66.015572"
+       y2="214.41371" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient893"
+       id="linearGradient939"
+       gradientUnits="userSpaceOnUse"
+       x1="66.015572"
+       y1="287.64557"
+       x2="66.015572"
+       y2="214.41371" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient858"
+       id="linearGradient979"
+       gradientUnits="userSpaceOnUse"
+       x1="89.000755"
+       y1="127.28385"
+       x2="89.000755"
+       y2="172.45239"
+       gradientTransform="translate(405.19047)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient885"
+       id="linearGradient1017"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.58697404,0,0,0.71511628,41.658338,206.451)"
+       x1="100.49334"
+       y1="211.47375"
+       x2="100.49334"
+       y2="268.40216" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient893"
+       id="linearGradient1021"
+       gradientUnits="userSpaceOnUse"
+       x1="66.015572"
+       y1="287.64557"
+       x2="66.015572"
+       y2="214.41371"
+       gradientTransform="matrix(0.58697404,0,0,0.58697404,43.367725,234.53084)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient885"
+       id="linearGradient1068"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.58697404,0,0,0.71511628,181.13155,206.451)"
+       x1="100.49334"
+       y1="211.47375"
+       x2="100.49334"
+       y2="268.40216" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient893"
+       id="linearGradient1070"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.58697404,0,0,0.58697404,182.84094,234.53084)"
+       x1="66.015572"
+       y1="287.64557"
+       x2="66.015572"
+       y2="214.41371" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient893"
+       id="linearGradient1072"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.58697404,0,0,0.58697404,182.84094,234.53084)"
+       x1="66.015572"
+       y1="287.64557"
+       x2="66.015572"
+       y2="214.41371" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -103,9 +262,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49497475"
-     inkscape:cx="455.89925"
-     inkscape:cy="630.2952"
+     inkscape:zoom="1.4"
+     inkscape:cx="753.79797"
+     inkscape:cy="-310.50053"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -114,7 +273,7 @@
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:snap-global="false" />
+     inkscape:snap-global="true" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -150,11 +309,11 @@
        inkscape:export-xdpi="95.591461"
        inkscape:export-ydpi="95.591461" />
     <rect
-       style="opacity:0.47300002;vector-effect:none;fill:#ffffff;fill-opacity:0.99640934;stroke:none;stroke-width:2.98633909;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:0.47300002;vector-effect:none;fill:#ffffff;fill-opacity:0.99640934;stroke:none;stroke-width:2.97969556;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect862"
-       width="340.17856"
+       width="338.66666"
        height="64.255959"
-       x="-65.089279"
+       x="-64.333328"
        y="116.37202"
        inkscape:export-filename="/home/vit/ProjectG70/godot3/GoParking/tutorial/textures/crashed.png"
        inkscape:export-xdpi="95.591461"
@@ -223,5 +382,303 @@
        id="path1007"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccssccsscc" />
+    <g
+       id="g900"
+       transform="matrix(0.82558139,0,0,0.82558139,18.313954,41.963344)">
+      <g
+         id="g913"
+         transform="matrix(0.71098265,0,0,0.71098265,30.346822,132.5281)">
+        <rect
+           style="opacity:1;vector-effect:none;fill:url(#linearGradient915);fill-opacity:1;stroke:none;stroke-width:1.30134559;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect879"
+           width="173.49107"
+           height="79.204643"
+           x="18.254463"
+           y="207.62605"
+           ry="16.167801" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36.34850693px;line-height:9.46575546px;font-family:'Bucket O Blood';-inkscape-font-specification:'Bucket O Blood';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;opacity:1;vector-effect:none;fill:url(#linearGradient917);fill-opacity:1;stroke:#ffffff;stroke-width:2.63208461;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           x="105.18399"
+           y="241.28688"
+           id="text906"
+           inkscape:export-filename="/home/vit/ProjectG70/godot3/GoParking/tutorial/textures/crashed.png"
+           inkscape:export-xdpi="95.591461"
+           inkscape:export-ydpi="95.591461"><tspan
+             sodipodi:role="line"
+             id="tspan904"
+             x="105.18399"
+             y="241.28688"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ChicagoCyr;-inkscape-font-specification:ChicagoCyr;fill:url(#linearGradient917);fill-opacity:1;stroke:#ffffff;stroke-width:2.63208461;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">RESRART</tspan></text>
+        <text
+           inkscape:export-ydpi="95.591461"
+           inkscape:export-xdpi="95.591461"
+           inkscape:export-filename="/home/vit/ProjectG70/godot3/GoParking/tutorial/textures/crashed.png"
+           id="text856"
+           y="241.28688"
+           x="105.18399"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36.34850693px;line-height:9.46575546px;font-family:'Bucket O Blood';-inkscape-font-specification:'Bucket O Blood';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;opacity:1;vector-effect:none;fill:url(#linearGradient902);fill-opacity:1;stroke:#000000;stroke-width:1.17900002;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ChicagoCyr;-inkscape-font-specification:ChicagoCyr;fill:url(#linearGradient902);fill-opacity:1;stroke:none;stroke-width:1.17900002;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+             y="241.28688"
+             x="105.18399"
+             id="tspan854"
+             sodipodi:role="line">RESRART</tspan></text>
+      </g>
+      <rect
+         style="opacity:0;vector-effect:none;fill:#ffffff;fill-opacity:0.99640934;stroke:none;stroke-width:4.53569078;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect919"
+         width="123.61685"
+         height="31.243544"
+         x="43.05772"
+         y="280.14664"
+         ry="0"
+         inkscape:export-filename="/home/vit/ProjectG70/godot3/GoParking/tutorial/textures/restart.png"
+         inkscape:export-xdpi="95"
+         inkscape:export-ydpi="95" />
+      <g
+         transform="matrix(0.71098265,0,0,0.71098265,199.28657,132.5281)"
+         id="g931">
+        <rect
+           ry="16.167801"
+           y="207.62605"
+           x="18.254463"
+           height="79.204643"
+           width="173.49107"
+           id="rect921"
+           style="opacity:1;vector-effect:none;fill:url(#linearGradient935);fill-opacity:1;stroke:none;stroke-width:1.30134559;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        <text
+           inkscape:export-ydpi="95.591461"
+           inkscape:export-xdpi="95.591461"
+           inkscape:export-filename="/home/vit/ProjectG70/godot3/GoParking/tutorial/textures/crashed.png"
+           id="text925"
+           y="241.28688"
+           x="105.18399"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36.34850693px;line-height:9.46575546px;font-family:'Bucket O Blood';-inkscape-font-specification:'Bucket O Blood';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;opacity:1;vector-effect:none;fill:url(#linearGradient937);fill-opacity:1;stroke:#ffffff;stroke-width:2.63208461;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ChicagoCyr;-inkscape-font-specification:ChicagoCyr;fill:url(#linearGradient937);fill-opacity:1;stroke:#ffffff;stroke-width:2.63208461;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+             y="241.28688"
+             x="105.18399"
+             id="tspan923"
+             sodipodi:role="line">RESRART</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36.34850693px;line-height:9.46575546px;font-family:'Bucket O Blood';-inkscape-font-specification:'Bucket O Blood';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;opacity:1;vector-effect:none;fill:url(#linearGradient939);fill-opacity:1;stroke:#000000;stroke-width:1.17900002;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           x="105.18399"
+           y="241.28688"
+           id="text929"
+           inkscape:export-filename="/home/vit/ProjectG70/godot3/GoParking/tutorial/textures/crashed.png"
+           inkscape:export-xdpi="95.591461"
+           inkscape:export-ydpi="95.591461"><tspan
+             sodipodi:role="line"
+             id="tspan927"
+             x="105.18399"
+             y="241.28688"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ChicagoCyr;-inkscape-font-specification:ChicagoCyr;fill:url(#linearGradient939);fill-opacity:1;stroke:none;stroke-width:1.17900002;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">RESRART</tspan></text>
+        <text
+           inkscape:export-ydpi="95.591461"
+           inkscape:export-xdpi="95.591461"
+           inkscape:export-filename="/home/vit/ProjectG70/godot3/GoParking/tutorial/textures/crashed.png"
+           id="text943"
+           y="241.28688"
+           x="105.18399"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36.34850693px;line-height:9.46575546px;font-family:'Bucket O Blood';-inkscape-font-specification:'Bucket O Blood';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;opacity:0.315;vector-effect:none;fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:1.17900002;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ChicagoCyr;-inkscape-font-specification:ChicagoCyr;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:1.17900002;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;"
+             y="241.28688"
+             x="105.18399"
+             id="tspan941"
+             sodipodi:role="line">RESRART</tspan></text>
+      </g>
+      <rect
+         inkscape:export-ydpi="95"
+         inkscape:export-xdpi="95"
+         inkscape:export-filename="/home/vit/ProjectG70/godot3/GoParking/tutorial/textures/restart_h.png"
+         ry="0"
+         y="280.14664"
+         x="211.99747"
+         height="31.243544"
+         width="123.61685"
+         id="rect933"
+         style="opacity:0;vector-effect:none;fill:#ffffff;fill-opacity:0.99640934;stroke:none;stroke-width:4.53569078;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <image
+       width="339.19583"
+       height="203.72917"
+       preserveAspectRatio="none"
+       xlink:href="file:///home/vit/%D0%9A%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8/screen/scr2018-06-26-11:22:20.png"
+       id="image963"
+       x="340.59256"
+       y="46.635414"
+       style="opacity:0"
+       inkscape:export-filename="/home/vit/ProjectG70/godot3/GoParking/tutorial/textures/victory.png"
+       inkscape:export-xdpi="95.87532"
+       inkscape:export-ydpi="95.87532" />
+    <ellipse
+       inkscape:export-ydpi="95.87532"
+       inkscape:export-xdpi="95.87532"
+       inkscape:export-filename="/home/vit/ProjectG70/godot3/GoParking/tutorial/textures/victory.png"
+       ry="63.610146"
+       rx="115.72771"
+       cy="148.5"
+       cx="510.19046"
+       id="ellipse965"
+       style="opacity:0.84500002;vector-effect:none;fill:#000000;fill-opacity:0.99640934;stroke:none;stroke-width:3.02993751;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter1003)" />
+    <rect
+       inkscape:export-ydpi="95.87532"
+       inkscape:export-xdpi="95.87532"
+       inkscape:export-filename="/home/vit/ProjectG70/godot3/GoParking/tutorial/textures/victory.png"
+       y="116.37202"
+       x="340.85715"
+       height="64.255959"
+       width="338.66666"
+       id="rect967"
+       style="opacity:0.47300002;vector-effect:none;fill:#ffffff;fill-opacity:0.99640934;stroke:none;stroke-width:2.97969556;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <rect
+       inkscape:export-ydpi="95.87532"
+       inkscape:export-xdpi="95.87532"
+       inkscape:export-filename="/home/vit/ProjectG70/godot3/GoParking/tutorial/textures/victory.png"
+       ry="0"
+       transform="rotate(8.0834185)"
+       y="41.14167"
+       x="432.45016"
+       height="69.79818"
+       width="185.05646"
+       id="rect973"
+       style="opacity:0.47300002;vector-effect:none;fill:#ffffff;fill-opacity:0.99640934;stroke:none;stroke-width:3.68831468;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <rect
+       style="opacity:0.47300002;vector-effect:none;fill:#ffffff;fill-opacity:0.99640934;stroke:none;stroke-width:3.72579408;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect981"
+       width="186.93694"
+       height="70.507439"
+       x="374.88623"
+       y="213.80125"
+       transform="rotate(-11.677377)"
+       ry="0"
+       inkscape:export-filename="/home/vit/ProjectG70/godot3/GoParking/tutorial/textures/victory.png"
+       inkscape:export-xdpi="95.87532"
+       inkscape:export-ydpi="95.87532" />
+    <text
+       inkscape:export-ydpi="95.87532"
+       inkscape:export-xdpi="95.87532"
+       inkscape:export-filename="/home/vit/ProjectG70/godot3/GoParking/tutorial/textures/victory.png"
+       id="text977"
+       y="169.40923"
+       x="509.9035"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50.87402344px;line-height:13.2484417px;font-family:sans-serif;-inkscape-font-specification:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;opacity:1;vector-effect:none;fill:url(#linearGradient979);fill-opacity:1;stroke:none;stroke-width:0.52993768px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Blambot Pro Lite';-inkscape-font-specification:'Blambot Pro Lite';fill:url(#linearGradient979);fill-opacity:1;stroke-width:0.52993768px"
+         y="169.40923"
+         x="509.9035"
+         id="tspan975"
+         sodipodi:role="line">VICTORY</tspan></text>
+    <rect
+       ry="9.4900799"
+       y="356.40195"
+       x="54.082623"
+       height="46.49107"
+       width="101.83475"
+       id="rect983"
+       style="opacity:1;vector-effect:none;fill:url(#linearGradient1017);fill-opacity:1;stroke:none;stroke-width:0.76385605;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       inkscape:export-ydpi="95.591461"
+       inkscape:export-xdpi="95.591461"
+       inkscape:export-filename="/home/vit/ProjectG70/godot3/GoParking/tutorial/textures/next.png"
+       id="text1052"
+       y="376.15997"
+       x="105.10799"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33563042px;line-height:5.55615282px;font-family:'Bucket O Blood';-inkscape-font-specification:'Bucket O Blood';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;opacity:1;vector-effect:none;fill:url(#linearGradient1021);fill-opacity:1;stroke:#ffffff;stroke-width:1.492;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ChicagoCyr;-inkscape-font-specification:ChicagoCyr;fill:url(#linearGradient1021);fill-opacity:1;stroke:#ffffff;stroke-width:1.492;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         y="376.15997"
+         x="105.10799"
+         id="tspan1050"
+         sodipodi:role="line">NEXT &gt;&gt;</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33563042px;line-height:5.55615282px;font-family:'Bucket O Blood';-inkscape-font-specification:'Bucket O Blood';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;opacity:1;vector-effect:none;fill:url(#linearGradient1021);fill-opacity:1;stroke:#000000;stroke-width:0.69204241;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       x="105.10799"
+       y="376.15997"
+       id="text991"
+       inkscape:export-filename="/home/vit/ProjectG70/godot3/GoParking/tutorial/textures/next.png"
+       inkscape:export-xdpi="95.591461"
+       inkscape:export-ydpi="95.591461"><tspan
+         sodipodi:role="line"
+         id="tspan989"
+         x="105.10799"
+         y="376.15997"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ChicagoCyr;-inkscape-font-specification:ChicagoCyr;fill:url(#linearGradient1021);fill-opacity:1;stroke:none;stroke-width:0.69204241;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">NEXT &gt;&gt;</tspan></text>
+    <rect
+       style="opacity:0;vector-effect:none;fill:#ffffff;fill-opacity:0.99640934;stroke:none;stroke-width:3.74458194;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect995"
+       width="102.05577"
+       height="25.794088"
+       x="53.861607"
+       y="356.40195"
+       ry="0"
+       inkscape:export-filename="/home/vit/ProjectG70/godot3/GoParking/tutorial/textures/next.png"
+       inkscape:export-xdpi="95"
+       inkscape:export-ydpi="95" />
+    <rect
+       style="opacity:1;vector-effect:none;fill:url(#linearGradient1068);fill-opacity:1;stroke:none;stroke-width:0.76385605;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1056"
+       width="101.83475"
+       height="46.49107"
+       x="193.55583"
+       y="356.40195"
+       ry="9.4900799" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33563042px;line-height:5.55615282px;font-family:'Bucket O Blood';-inkscape-font-specification:'Bucket O Blood';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;opacity:1;vector-effect:none;fill:url(#linearGradient1070);fill-opacity:1;stroke:#ffffff;stroke-width:1.49199998;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       x="244.58121"
+       y="376.15997"
+       id="text1060"
+       inkscape:export-filename="/home/vit/ProjectG70/godot3/GoParking/tutorial/textures/next_h.png"
+       inkscape:export-xdpi="95.591461"
+       inkscape:export-ydpi="95.591461"><tspan
+         sodipodi:role="line"
+         id="tspan1058"
+         x="244.58121"
+         y="376.15997"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ChicagoCyr;-inkscape-font-specification:ChicagoCyr;fill:url(#linearGradient1070);fill-opacity:1;stroke:#ffffff;stroke-width:1.49199998;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">NEXT &gt;&gt;</tspan></text>
+    <text
+       inkscape:export-ydpi="95.591461"
+       inkscape:export-xdpi="95.591461"
+       inkscape:export-filename="/home/vit/ProjectG70/godot3/GoParking/tutorial/textures/next_h.png"
+       id="text1064"
+       y="376.15997"
+       x="244.58121"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33563042px;line-height:5.55615282px;font-family:'Bucket O Blood';-inkscape-font-specification:'Bucket O Blood';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;opacity:1;vector-effect:none;fill:url(#linearGradient1072);fill-opacity:1;stroke:#000000;stroke-width:0.69204241;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ChicagoCyr;-inkscape-font-specification:ChicagoCyr;fill:url(#linearGradient1072);fill-opacity:1;stroke:none;stroke-width:0.69204241;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         y="376.15997"
+         x="244.58121"
+         id="tspan1062"
+         sodipodi:role="line">NEXT &gt;&gt;</tspan></text>
+    <rect
+       inkscape:export-ydpi="95"
+       inkscape:export-xdpi="95"
+       inkscape:export-filename="/home/vit/ProjectG70/godot3/GoParking/tutorial/textures/next_h.png"
+       ry="0"
+       y="356.40195"
+       x="193.33482"
+       height="25.794088"
+       width="102.05577"
+       id="rect1066"
+       style="opacity:0;vector-effect:none;fill:#ffffff;fill-opacity:0.99640934;stroke:none;stroke-width:3.74458194;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33563042px;line-height:5.55615282px;font-family:'Bucket O Blood';-inkscape-font-specification:'Bucket O Blood';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;opacity:0.309;vector-effect:none;fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:0.69204241;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;"
+       x="244.58121"
+       y="376.15997"
+       id="text1076"
+       inkscape:export-filename="/home/vit/ProjectG70/godot3/GoParking/tutorial/textures/next_h.png"
+       inkscape:export-xdpi="95.591461"
+       inkscape:export-ydpi="95.591461"><tspan
+         sodipodi:role="line"
+         id="tspan1074"
+         x="244.58121"
+         y="376.15997"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ChicagoCyr;-inkscape-font-specification:ChicagoCyr;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.69204241;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;">NEXT &gt;&gt;</tspan></text>
   </g>
 </svg>

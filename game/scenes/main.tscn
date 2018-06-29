@@ -1,9 +1,23 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=16 format=2]
 
-[ext_resource path="res://scripts/Camera.gd" type="Script" id=1]
-[ext_resource path="res://scenes/carM.tscn" type="PackedScene" id=2]
+[ext_resource path="res://scripts/main.gd" type="Script" id=1]
+[ext_resource path="res://sounds/car_crash.ogg" type="AudioStream" id=2]
+[ext_resource path="res://sounds/alarm01.ogg" type="AudioStream" id=3]
+[ext_resource path="res://sounds/alarm02.ogg" type="AudioStream" id=4]
+[ext_resource path="res://sounds/victory.ogg" type="AudioStream" id=5]
+[ext_resource path="res://textures/crashed.png" type="Texture" id=6]
+[ext_resource path="res://textures/restart.png" type="Texture" id=7]
+[ext_resource path="res://textures/restart_h.png" type="Texture" id=8]
+[ext_resource path="res://textures/victory.png" type="Texture" id=9]
+[ext_resource path="res://textures/next.png" type="Texture" id=10]
+[ext_resource path="res://textures/next_h.png" type="Texture" id=11]
 
-[sub_resource type="ProceduralSky" id=1]
+[sub_resource type="PlaneShape" id=1]
+
+plane = Plane( 0, 1, 0, 0 )
+_sections_unfolded = [ "Resource" ]
+
+[sub_resource type="ProceduralSky" id=2]
 
 radiance_size = 4
 sky_top_color = Color( 0.0470588, 0.454902, 0.976471, 1 )
@@ -23,17 +37,17 @@ sun_curve = 0.05
 sun_energy = 16.0
 texture_size = 2
 
-[sub_resource type="Environment" id=2]
+[sub_resource type="Environment" id=3]
 
 background_mode = 3
-background_sky = SubResource( 1 )
-background_sky_custom_fov = 0.0
-background_color = Color( 0.308594, 0.308594, 0.308594, 1 )
+background_sky = SubResource( 2 )
+background_sky_custom_fov = 0.5
+background_color = Color( 0, 0, 0, 1 )
 background_energy = 1.0
 background_canvas_max_layer = 0
-ambient_light_color = Color( 0, 0, 0, 1 )
-ambient_light_energy = 1.0
-ambient_light_sky_contribution = 1.0
+ambient_light_color = Color( 0.925781, 0.925781, 0.925781, 1 )
+ambient_light_energy = 1.09
+ambient_light_sky_contribution = 0.33
 fog_enabled = false
 fog_color = Color( 0.5, 0.6, 0.7, 1 )
 fog_sun_color = Color( 1, 0.9, 0.7, 1 )
@@ -50,8 +64,8 @@ fog_height_curve = 1.0
 tonemap_mode = 0
 tonemap_exposure = 1.0
 tonemap_white = 1.0
-auto_exposure_enabled = false
-auto_exposure_scale = 0.4
+auto_exposure_enabled = true
+auto_exposure_scale = 0.36
 auto_exposure_min_luma = 0.05
 auto_exposure_max_luma = 8.0
 auto_exposure_speed = 0.5
@@ -101,22 +115,20 @@ adjustment_enabled = false
 adjustment_brightness = 1.0
 adjustment_contrast = 1.0
 adjustment_saturation = 1.0
-_sections_unfolded = [ "Background" ]
+_sections_unfolded = [ "Adjustments", "Ambient Light", "Auto Exposure", "Background", "Fog", "Glow", "SS Reflections", "SSAO", "Tonemap" ]
 
-[sub_resource type="PlaneShape" id=3]
+[sub_resource type="BoxShape" id=4]
 
-plane = Plane( 0, 1, 0, 0 )
+extents = Vector3( 0.4, 0.4, 0.4 )
 
 [node name="main" type="Spatial" index="0"]
 
-[node name="WorldEnvironment" type="WorldEnvironment" parent="." index="0"]
+script = ExtResource( 1 )
 
-environment = SubResource( 2 )
-
-[node name="Camera" type="Camera" parent="." index="1"]
+[node name="Camera" type="Camera" parent="." index="0"]
 
 editor/display_folded = true
-transform = Transform( 1, 0, 0, 0, -1.62921e-07, 1, 0, -1, -1.62921e-07, 0, 14.8721, 0.179626 )
+transform = Transform( 1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, -1, 16.6143, 1 )
 keep_aspect = 1
 cull_mask = 1048575
 environment = null
@@ -129,32 +141,30 @@ fov = 30.0
 size = 1.0
 near = 0.05
 far = 100.0
-script = ExtResource( 1 )
 _sections_unfolded = [ "Transform" ]
 
 [node name="RayCast" type="RayCast" parent="Camera" index="0"]
 
-transform = Transform( 0.999986, -0.00299605, 0.00436609, 0.00298258, 0.999991, 0.00308972, -0.00437531, -0.00307665, 0.999986, 0, 5.57225e-09, 0 )
-enabled = true
-exclude_parent = false
+enabled = false
+exclude_parent = true
 cast_to = Vector3( 0, 0, -1000 )
 collision_mask = 16
 
-[node name="DirectionalLight" type="DirectionalLight" parent="." index="2"]
+[node name="DirectionalLight" type="DirectionalLight" parent="." index="1"]
 
-transform = Transform( 0.258819, 0.620885, -0.739942, 0, 0.766044, 0.642788, 0.965926, -0.166366, 0.198267, 0, 2, 5 )
+transform = Transform( 0.692084, 0.613516, -0.380287, -0.0651338, 0.577777, 0.813592, 0.718872, -0.538304, 0.439831, 1.07518, 1.31912, 1.14329 )
 layers = 1
 light_color = Color( 1, 1, 1, 1 )
-light_energy = 1.0
+light_energy = 2.9
 light_indirect_energy = 1.0
 light_negative = false
 light_specular = 0.5
 light_bake_mode = 1
 light_cull_mask = -1
-shadow_enabled = false
+shadow_enabled = true
 shadow_color = Color( 0, 0, 0, 1 )
-shadow_bias = 0.1
-shadow_contact = 0.0
+shadow_bias = 1.67
+shadow_contact = 3.1
 shadow_reverse_cull_face = false
 editor_only = false
 directional_shadow_mode = 2
@@ -166,29 +176,11 @@ directional_shadow_normal_bias = 0.8
 directional_shadow_bias_split_scale = 0.25
 directional_shadow_depth_range = 0
 directional_shadow_max_distance = 200.0
+_sections_unfolded = [ "Light", "Shadow" ]
 
-[node name="car" parent="." index="3" instance=ExtResource( 2 )]
+[node name="floor" type="StaticBody" parent="." index="2"]
 
-_sections_unfolded = [ "Axis Lock", "Collision", "Transform", "collision" ]
-
-[node name="car2" parent="." index="4" instance=ExtResource( 2 )]
-
-transform = Transform( -1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -4.39237, 0, 0 )
-_sections_unfolded = [ "Axis Lock", "Collision", "Transform", "collision" ]
-
-[node name="car3" parent="." index="5" instance=ExtResource( 2 )]
-
-transform = Transform( -1.62921e-07, 0, 1, 0, 1, 0, -1, 0, -1.62921e-07, 3.60763, 0, 0 )
-_sections_unfolded = [ "Axis Lock", "Collision", "Transform", "collision" ]
-
-[node name="car4" parent="." index="6" instance=ExtResource( 2 )]
-
-transform = Transform( -1.62921e-07, 0, -1, 0, 1, 0, 1, 0, -1.62921e-07, 2.19722, 0, 0 )
-axis_lock_linear_y = true
-_sections_unfolded = [ "Axis Lock", "Collision", "Transform", "collision" ]
-
-[node name="StaticBody" type="StaticBody" parent="." index="7"]
-
+editor/display_folded = true
 input_ray_pickable = true
 input_capture_on_drag = false
 collision_layer = 16
@@ -199,9 +191,233 @@ constant_linear_velocity = Vector3( 0, 0, 0 )
 constant_angular_velocity = Vector3( 0, 0, 0 )
 _sections_unfolded = [ "Collision" ]
 
-[node name="CollisionShape" type="CollisionShape" parent="StaticBody" index="0"]
+[node name="CollisionShape" type="CollisionShape" parent="floor" index="0"]
 
-shape = SubResource( 3 )
+shape = SubResource( 1 )
 disabled = false
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." index="3"]
+
+environment = SubResource( 3 )
+
+[node name="sounds" type="Node" parent="." index="4"]
+
+editor/display_folded = true
+
+[node name="crash" type="AudioStreamPlayer2D" parent="sounds" index="0"]
+
+stream = ExtResource( 2 )
+volume_db = 0.0
+autoplay = false
+max_distance = 2000.0
+attenuation = 1.0
+bus = "Master"
+area_mask = 1
+
+[node name="alarm01" type="AudioStreamPlayer2D" parent="sounds" index="1"]
+
+stream = ExtResource( 3 )
+volume_db = 0.0
+autoplay = false
+max_distance = 2000.0
+attenuation = 1.0
+bus = "Master"
+area_mask = 1
+
+[node name="alarm02" type="AudioStreamPlayer2D" parent="sounds" index="2"]
+
+stream = ExtResource( 4 )
+volume_db = 0.0
+autoplay = false
+max_distance = 2000.0
+attenuation = 1.0
+bus = "Master"
+area_mask = 1
+
+[node name="victory" type="AudioStreamPlayer2D" parent="sounds" index="3"]
+
+stream = ExtResource( 5 )
+volume_db = 0.0
+autoplay = false
+max_distance = 2000.0
+attenuation = 1.0
+bus = "Master"
+area_mask = 1
+
+[node name="crash" type="Control" parent="." index="5"]
+
+editor/display_folded = true
+visible = false
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 0
+grow_vertical = 0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+
+[node name="TextureRect" type="TextureRect" parent="crash" index="0"]
+
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -640.0
+margin_top = -362.5
+margin_right = 640.0
+margin_bottom = 362.5
+grow_horizontal = 0
+grow_vertical = 0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+texture = ExtResource( 6 )
+stretch_mode = 0
+_sections_unfolded = [ "Grow Direction", "Mouse" ]
+
+[node name="restartButton" type="TextureButton" parent="crash" index="1"]
+
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+margin_left = -191.0
+margin_top = -96.0
+margin_right = 191.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+focus_mode = 2
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+texture_normal = ExtResource( 7 )
+texture_pressed = ExtResource( 7 )
+texture_hover = ExtResource( 8 )
+_sections_unfolded = [ "Textures" ]
+
+[node name="victory" type="Control" parent="." index="6"]
+
+editor/display_folded = true
+visible = false
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 0
+grow_vertical = 0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+
+[node name="TextureRect" type="TextureRect" parent="victory" index="0"]
+
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -640.0
+margin_top = -384.5
+margin_right = 640.0
+margin_bottom = 384.5
+grow_horizontal = 0
+grow_vertical = 0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+texture = ExtResource( 9 )
+stretch_mode = 0
+_sections_unfolded = [ "Grow Direction", "Mouse" ]
+
+[node name="next" type="TextureButton" parent="victory" index="1"]
+
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+margin_left = -191.0
+margin_top = -96.0
+margin_right = 191.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+focus_mode = 2
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+texture_normal = ExtResource( 10 )
+texture_pressed = ExtResource( 10 )
+texture_hover = ExtResource( 11 )
+_sections_unfolded = [ "Textures" ]
+
+[node name="timers" type="Node" parent="." index="7"]
+
+editor/display_folded = true
+
+[node name="alarm" type="Timer" parent="timers" index="0"]
+
+process_mode = 1
+wait_time = 0.2
+one_shot = true
+autostart = false
+
+[node name="gate" type="Area" parent="." index="8"]
+
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 5 )
+input_ray_pickable = false
+input_capture_on_drag = false
+space_override = 0
+gravity_point = false
+gravity_distance_scale = 0.0
+gravity_vec = Vector3( 0, -1, 0 )
+gravity = 9.8
+linear_damp = 0.1
+angular_damp = 1.0
+priority = 0.0
+monitoring = true
+monitorable = true
+collision_layer = 1
+collision_mask = 1
+audio_bus_override = false
+audio_bus_name = "Master"
+reverb_bus_enable = false
+reverb_bus_name = "Master"
+reverb_bus_amount = 0.0
+reverb_bus_uniformity = 0.0
+
+[node name="CollisionShape" type="CollisionShape" parent="gate" index="0"]
+
+shape = SubResource( 4 )
+disabled = false
+
+[connection signal="pressed" from="crash/restartButton" to="." method="_on_restartButton_pressed"]
+
+[connection signal="pressed" from="victory/next" to="." method="_on_next_pressed"]
+
+[connection signal="timeout" from="timers/alarm" to="." method="_on_alarm_timeout"]
+
+[connection signal="body_entered" from="gate" to="." method="_on_gate_body_entered"]
 
 
