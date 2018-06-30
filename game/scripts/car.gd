@@ -21,10 +21,12 @@ func _on_car_input_event(camera, event, click_position, click_normal, shape_idx)
 			set_physics_process(true)
 			offset = translation - main_node.cursor_3d
 			Input.set_mouse_mode(Input.MOUSE_MODE_HIDDEN)
+			main_node.engine(true)
 		else:
 			isPressed = false
 			set_physics_process(false)
 			Input.set_mouse_mode(Input.MOUSE_MODE_VISIBLE)
+			main_node.engine(false)
 
 func _on_Area_body_entered(body):
 	if body != self:

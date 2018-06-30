@@ -1,16 +1,17 @@
-[gd_scene load_steps=16 format=2]
+[gd_scene load_steps=17 format=2]
 
 [ext_resource path="res://scripts/main.gd" type="Script" id=1]
 [ext_resource path="res://sounds/car_crash.ogg" type="AudioStream" id=2]
 [ext_resource path="res://sounds/alarm01.ogg" type="AudioStream" id=3]
 [ext_resource path="res://sounds/alarm02.ogg" type="AudioStream" id=4]
 [ext_resource path="res://sounds/victory.ogg" type="AudioStream" id=5]
-[ext_resource path="res://textures/crashed.png" type="Texture" id=6]
-[ext_resource path="res://textures/restart.png" type="Texture" id=7]
-[ext_resource path="res://textures/restart_h.png" type="Texture" id=8]
-[ext_resource path="res://textures/victory.png" type="Texture" id=9]
-[ext_resource path="res://textures/next.png" type="Texture" id=10]
-[ext_resource path="res://textures/next_h.png" type="Texture" id=11]
+[ext_resource path="res://sounds/engine_start.ogg" type="AudioStream" id=6]
+[ext_resource path="res://textures/crashed.png" type="Texture" id=7]
+[ext_resource path="res://textures/restart.png" type="Texture" id=8]
+[ext_resource path="res://textures/restart_h.png" type="Texture" id=9]
+[ext_resource path="res://textures/victory.png" type="Texture" id=10]
+[ext_resource path="res://textures/next.png" type="Texture" id=11]
+[ext_resource path="res://textures/next_h.png" type="Texture" id=12]
 
 [sub_resource type="PlaneShape" id=1]
 
@@ -121,7 +122,7 @@ _sections_unfolded = [ "Adjustments", "Ambient Light", "Auto Exposure", "Backgro
 
 extents = Vector3( 0.4, 0.4, 0.4 )
 
-[node name="main" type="Spatial" index="0"]
+[node name="main" type="Spatial"]
 
 script = ExtResource( 1 )
 
@@ -244,6 +245,16 @@ attenuation = 1.0
 bus = "Master"
 area_mask = 1
 
+[node name="engine2" type="AudioStreamPlayer2D" parent="sounds" index="4"]
+
+stream = ExtResource( 6 )
+volume_db = 0.0
+autoplay = false
+max_distance = 2000.0
+attenuation = 1.0
+bus = "Master"
+area_mask = 1
+
 [node name="crash" type="Control" parent="." index="5"]
 
 editor/display_folded = true
@@ -279,7 +290,7 @@ mouse_filter = 1
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
-texture = ExtResource( 6 )
+texture = ExtResource( 7 )
 stretch_mode = 0
 _sections_unfolded = [ "Grow Direction", "Mouse" ]
 
@@ -303,9 +314,9 @@ toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
 group = null
-texture_normal = ExtResource( 7 )
-texture_pressed = ExtResource( 7 )
-texture_hover = ExtResource( 8 )
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 8 )
+texture_hover = ExtResource( 9 )
 _sections_unfolded = [ "Textures" ]
 
 [node name="victory" type="Control" parent="." index="6"]
@@ -343,7 +354,7 @@ mouse_filter = 1
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
-texture = ExtResource( 9 )
+texture = ExtResource( 10 )
 stretch_mode = 0
 _sections_unfolded = [ "Grow Direction", "Mouse" ]
 
@@ -367,14 +378,12 @@ toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
 group = null
-texture_normal = ExtResource( 10 )
-texture_pressed = ExtResource( 10 )
-texture_hover = ExtResource( 11 )
+texture_normal = ExtResource( 11 )
+texture_pressed = ExtResource( 11 )
+texture_hover = ExtResource( 12 )
 _sections_unfolded = [ "Textures" ]
 
 [node name="timers" type="Node" parent="." index="7"]
-
-editor/display_folded = true
 
 [node name="alarm" type="Timer" parent="timers" index="0"]
 

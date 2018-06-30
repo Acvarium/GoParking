@@ -11,7 +11,7 @@ extents = Vector3( 0.943777, 0.3, 0.42997 )
 
 extents = Vector3( 0.956361, 0.205699, 0.437521 )
 
-[node name="car" type="KinematicBody"]
+[node name="car" type="KinematicBody" index="0"]
 
 input_ray_pickable = true
 input_capture_on_drag = true
@@ -28,6 +28,8 @@ script = ExtResource( 1 )
 _sections_unfolded = [ "Axis Lock", "Collision" ]
 
 [node name="car_00" parent="." index="0" instance=ExtResource( 2 )]
+
+transform = Transform( 0.974108, 0, 0, 0, 1, 0, 0, 0, 1, 0.00431532, 0, 0 )
 
 [node name="CollisionShape" type="CollisionShape" parent="." index="1"]
 

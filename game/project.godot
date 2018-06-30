@@ -10,7 +10,7 @@ config_version=3
 
 [application]
 
-config/name="GoParkingTut01"
+config/name="GoParking"
 run/main_scene="res://scenes/main.tscn"
 config/icon="res://icon.png"
 

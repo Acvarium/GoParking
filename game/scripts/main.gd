@@ -12,6 +12,13 @@ func _ready():
 	var levelObj = load(global.getLevel())
 	add_child(levelObj.instance())
 
+func engine(on):
+	if on:
+		$sounds/engine2.play()
+	else:
+		$sounds/engine2.stop()
+		
+
 func crash():
 	$sounds/crash.play()
 	$timers/alarm.start()
