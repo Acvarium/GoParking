@@ -7,10 +7,7 @@ path="res://.import/next_h.png-f6424a9e783d0b633ccd444dbec10426.stex"
 [deps]
 
 source_file="res://textures/next_h.png"
-source_md5="a75893e5ebe67f4158912bbf46912424"
-
 dest_files=[ "res://.import/next_h.png-f6424a9e783d0b633ccd444dbec10426.stex" ]
-dest_md5="8943e6152e7763eacbd7b5e75e2221fd"
 
 [params]
 

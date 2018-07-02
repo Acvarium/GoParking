@@ -7,10 +7,7 @@ path="res://.import/g002.dae-9e1b46e5b6a96a7142f3862efdbbcb83.scn"
 [deps]
 
 source_file="res://models/export/g002.dae"
-source_md5="ef2f8953e89a66bafb700cfcafeb90a5"
-
 dest_files=[ "res://.import/g002.dae-9e1b46e5b6a96a7142f3862efdbbcb83.scn" ]
-dest_md5="caf8ee9f0f47200f0af8b35d7321d0d3"
 
 [params]
 

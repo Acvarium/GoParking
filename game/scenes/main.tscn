@@ -122,14 +122,14 @@ _sections_unfolded = [ "Adjustments", "Ambient Light", "Auto Exposure", "Backgro
 
 extents = Vector3( 0.4, 0.4, 0.4 )
 
-[node name="main" type="Spatial"]
+[node name="main" type="Spatial" index="0"]
 
 script = ExtResource( 1 )
 
 [node name="Camera" type="Camera" parent="." index="0"]
 
 editor/display_folded = true
-transform = Transform( 1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, -1, 16.6143, 1 )
+transform = Transform( 1, 0, 0, 0, -4.37114e-008, 1, 0, -1, -4.37114e-008, -1, 16.6143, 1 )
 keep_aspect = 1
 cull_mask = 1048575
 environment = null
@@ -209,6 +209,7 @@ editor/display_folded = true
 
 stream = ExtResource( 2 )
 volume_db = 0.0
+pitch_scale = 1.0
 autoplay = false
 max_distance = 2000.0
 attenuation = 1.0
@@ -219,6 +220,7 @@ area_mask = 1
 
 stream = ExtResource( 3 )
 volume_db = 0.0
+pitch_scale = 1.0
 autoplay = false
 max_distance = 2000.0
 attenuation = 1.0
@@ -229,6 +231,7 @@ area_mask = 1
 
 stream = ExtResource( 4 )
 volume_db = 0.0
+pitch_scale = 1.0
 autoplay = false
 max_distance = 2000.0
 attenuation = 1.0
@@ -239,6 +242,7 @@ area_mask = 1
 
 stream = ExtResource( 5 )
 volume_db = 0.0
+pitch_scale = 1.0
 autoplay = false
 max_distance = 2000.0
 attenuation = 1.0
@@ -249,6 +253,7 @@ area_mask = 1
 
 stream = ExtResource( 6 )
 volume_db = 0.0
+pitch_scale = 1.0
 autoplay = false
 max_distance = 2000.0
 attenuation = 1.0

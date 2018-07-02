@@ -7,10 +7,7 @@ path="res://.import/alarm02.ogg-8b13156dc9c507a19b7c007562dd535f.oggstr"
 [deps]
 
 source_file="res://sounds/alarm02.ogg"
-source_md5="b3cb6451da20198296ac48a71c8b904b"
-
 dest_files=[ "res://.import/alarm02.ogg-8b13156dc9c507a19b7c007562dd535f.oggstr" ]
-dest_md5="d94100b775f1828d5f97611148369990"
 
 [params]
 

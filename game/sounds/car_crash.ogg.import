@@ -7,10 +7,7 @@ path="res://.import/car_crash.ogg-6a1392321449f14b9b68425a81c19fe5.oggstr"
 [deps]
 
 source_file="res://sounds/car_crash.ogg"
-source_md5="f847e58e5f3d9cb6bf34cf3f0cd3c670"
-
 dest_files=[ "res://.import/car_crash.ogg-6a1392321449f14b9b68425a81c19fe5.oggstr" ]
-dest_md5="44759f992980ac5677c410d27d61602a"
 
 [params]
 

@@ -7,10 +7,7 @@ path="res://.import/bip.ogg-ffa68348d33c55bfdd3115db2b1d07cc.oggstr"
 [deps]
 
 source_file="res://sounds/bip.ogg"
-source_md5="73a9849c600f761f8cc73d892973e64f"
-
 dest_files=[ "res://.import/bip.ogg-ffa68348d33c55bfdd3115db2b1d07cc.oggstr" ]
-dest_md5="1dc507db95babd5d6ee793db09a4ef6b"
 
 [params]
 

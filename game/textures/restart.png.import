@@ -7,10 +7,7 @@ path="res://.import/restart.png-1d271fa669529610bbbaf11efdd7e50a.stex"
 [deps]
 
 source_file="res://textures/restart.png"
-source_md5="b77bad1945ced42873900cf3981ea01d"
-
 dest_files=[ "res://.import/restart.png-1d271fa669529610bbbaf11efdd7e50a.stex" ]
-dest_md5="d7232616b83955594f0f2726bf16ab09"
 
 [params]
 

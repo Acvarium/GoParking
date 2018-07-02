@@ -7,10 +7,7 @@ path="res://.import/crashed.png-3c2448bd9dc024e37eafcf3a1231a1c1.stex"
 [deps]
 
 source_file="res://textures/crashed.png"
-source_md5="286e7fb6daf29fd1536e4fe6185c6ac9"
-
 dest_files=[ "res://.import/crashed.png-3c2448bd9dc024e37eafcf3a1231a1c1.stex" ]
-dest_md5="d07b2d59d8cb08ae80cc49c10b9d9fd9"
 
 [params]
 

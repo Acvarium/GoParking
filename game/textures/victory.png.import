@@ -7,10 +7,7 @@ path="res://.import/victory.png-31cd07b17f634052938281c883d0e22f.stex"
 [deps]
 
 source_file="res://textures/victory.png"
-source_md5="c4b85905e6956e137881a7222ecd70f6"
-
 dest_files=[ "res://.import/victory.png-31cd07b17f634052938281c883d0e22f.stex" ]
-dest_md5="580a11e335e546995fecc5f282ce77de"
 
 [params]
 

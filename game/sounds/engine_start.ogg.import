@@ -7,10 +7,7 @@ path="res://.import/engine_start.ogg-ce92cff4beef6600bc0155745c2f55ef.oggstr"
 [deps]
 
 source_file="res://sounds/engine_start.ogg"
-source_md5="d1dbd6da69818121d5529fb4e5beab15"
-
 dest_files=[ "res://.import/engine_start.ogg-ce92cff4beef6600bc0155745c2f55ef.oggstr" ]
-dest_md5="3ce845146f79be96fb83e40d1eeb7f69"
 
 [params]
 

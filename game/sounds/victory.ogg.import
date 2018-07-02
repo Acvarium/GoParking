@@ -7,10 +7,7 @@ path="res://.import/victory.ogg-9495c76c777843b146935012b9674139.oggstr"
 [deps]
 
 source_file="res://sounds/victory.ogg"
-source_md5="b528b33228fbab5afb3590e61673a938"
-
 dest_files=[ "res://.import/victory.ogg-9495c76c777843b146935012b9674139.oggstr" ]
-dest_md5="9d3ff0b87f725ab6d31b2403f3071c67"
 
 [params]
 

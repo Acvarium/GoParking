@@ -7,10 +7,7 @@ path="res://.import/cars_01.dae-ef158cf93c4039d60f12699ac3115eea.scn"
 [deps]
 
 source_file="res://models/export/cars_01.dae"
-source_md5="6c6cbceeca21ca600ed1766d9ddeb785"
-
 dest_files=[ "res://.import/cars_01.dae-ef158cf93c4039d60f12699ac3115eea.scn" ]
-dest_md5="48d18727a6c70814bf8f5b6d3c83578c"
 
 [params]
 
