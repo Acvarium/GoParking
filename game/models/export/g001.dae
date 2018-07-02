@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+<asset>
+	<contributor>
+		<author>Anonymous</author>
+		<authoring_tool>Collada Exporter for Blender 2.6+, by Juan Linietsky (juan@codenix.com)</authoring_tool>
+	</contributor>
+	<created>2018-06-26T03:15:53Z</created>
+	<modified>2018-06-26T03:15:53Z</modified>
+	<unit meter="1.0" name="meter"/>
+	<up_axis>Z_UP</up_axis>
+</asset>
+<library_effects>
+	<effect id="id-fx-2" name="g01-fx">
+		<profile_COMMON>
+			<technique sid="common">
+				<blinn>
+					<emission>
+						<color>  0.0 0.0 0.0 1.0 </color>
+					</emission>
+					<ambient>
+						<color>  0.0 0.0 0.0 1.0 </color>
+					</ambient>
+					<diffuse>
+						<color>  0.28122160853775746 0.28122160853775746 0.28122160853775746 1.0 </color>
+					</diffuse>
+					<specular>
+						<color>  0.5 0.5 0.5 1.0 </color>
+					</specular>
+					<shininess>
+						<float>50</float>
+					</shininess>
+					<reflective>
+						<color>  1.0 1.0 1.0 1.0 </color>
+					</reflective>
+					<index_of_refraction>
+						<float>4.0</float>
+					</index_of_refraction>
+				</blinn>
+				<extra>
+					<technique profile="FCOLLADA">
+					</technique>
+					<technique profile="GOOGLEEARTH">
+						<double_sided>0</double_sided>
+					</technique>
+				</extra>
+			</technique>
+		</profile_COMMON>
+	</effect>
+	<effect id="id-fx-4" name="g002-fx">
+		<profile_COMMON>
+			<technique sid="common">
+				<blinn>
+					<emission>
+						<color>  0.0 0.0 0.0 1.0 </color>
+					</emission>
+					<ambient>
+						<color>  0.0 0.0 0.0 1.0 </color>
+					</ambient>
+					<diffuse>
+						<color>  0.16176724674950904 0.1639186168300899 0.17857857016591083 1.0 </color>
+					</diffuse>
+					<specular>
+						<color>  0.5 0.5 0.5 1.0 </color>
+					</specular>
+					<shininess>
+						<float>50</float>
+					</shininess>
+					<reflective>
+						<color>  1.0 1.0 1.0 1.0 </color>
+					</reflective>
+					<index_of_refraction>
+						<float>4.0</float>
+					</index_of_refraction>
+				</blinn>
+				<extra>
+					<technique profile="FCOLLADA">
+					</technique>
+					<technique profile="GOOGLEEARTH">
+						<double_sided>0</double_sided>
+					</technique>
+				</extra>
+			</technique>
+		</profile_COMMON>
+	</effect>
+	<effect id="id-fx-6" name="g003-fx">
+		<profile_COMMON>
+			<technique sid="common">
+				<blinn>
+					<emission>
+						<color>  0.0 0.0 0.0 1.0 </color>
+					</emission>
+					<ambient>
+						<color>  0.0 0.0 0.0 1.0 </color>
+					</ambient>
+					<diffuse>
+						<color>  0.03384766629111269 0.03384766629111269 0.03384766629111269 1.0 </color>
+					</diffuse>
+					<specular>
+						<color>  0.5 0.5 0.5 1.0 </color>
+					</specular>
+					<shininess>
+						<float>50</float>
+					</shininess>
+					<reflective>
+						<color>  1.0 1.0 1.0 1.0 </color>
+					</reflective>
+					<index_of_refraction>
+						<float>4.0</float>
+					</index_of_refraction>
+				</blinn>
+				<extra>
+					<technique profile="FCOLLADA">
+					</technique>
+					<technique profile="GOOGLEEARTH">
+						<double_sided>0</double_sided>
+					</technique>
+				</extra>
+			</technique>
+		</profile_COMMON>
+	</effect>
+</library_effects>
+<library_materials>
+	<material id="id-material-3" name="g01">
+		<instance_effect url="#id-fx-2"/>
+	</material>
+	<material id="id-material-5" name="g002">
+		<instance_effect url="#id-fx-4"/>
+	</material>
+	<material id="id-material-7" name="g003">
+		<instance_effect url="#id-fx-6"/>
+	</material>
+</library_materials>
+<library_geometries>
+	<geometry id="id-mesh-8" name="Plane.003">
+		<mesh>
+			<source id="id-mesh-8-positions">
+				<float_array id="id-mesh-8-positions-array" count="102"> 0.5 0.4596351981163025 0.0 -0.5 0.5 0.0 -0.5 0.4596351981163025 0.0 0.5 -0.5 0.0 -0.5 0.05781149864196777 0.0 -0.5 -0.5 0.0 0.5 0.05781149864196777 0.0 -0.5 0.13574734330177307 0.27290812134742737 -0.5 0.05781149864196777 0.0 0.5 0.13574734330177307 0.27290812134742737 -0.5 0.3816993534564972 0.27290812134742737 -0.5 0.13574734330177307 0.27290812134742737 -0.5 0.05781149864196777 0.0 -0.5 0.3816993534564972 0.27290812134742737 -0.5 0.4596351981163025 0.0 -0.5 0.4596351981163025 0.0 0.5 0.3816993534564972 0.27290812134742737 0.5 0.4596351981163025 0.0 0.5 0.4596351981163025 0.0 0.5 0.13574734330177307 0.27290812134742737 0.5 0.05781149864196777 0.0 0.5 0.5 0.0 0.5 0.05781149864196777 0.0 0.5 0.13574734330177307 0.27290812134742737 0.5 0.3816993534564972 0.27290812134742737 -0.5 0.05781149864196777 0.0 -0.5 0.13574734330177307 0.27290812134742737 -0.5 0.3816993534564972 0.27290812134742737 -0.5 0.4596351981163025 0.0 -0.5 0.3816993534564972 0.27290812134742737 0.5 0.3816993534564972 0.27290812134742737 0.5 0.4596351981163025 0.0 0.5 0.3816993534564972 0.27290812134742737 0.5 0.13574734330177307 0.27290812134742737</float_array>
+				<technique_common>
+				<accessor source="#id-mesh-8-positions-array" count="34" stride="3">
+					<param name="X" type="float"/>
+					<param name="Y" type="float"/>
+					<param name="Z" type="float"/>
+				</accessor>
+				</technique_common>
+			</source>
+			<source id="id-mesh-8-normals">
+				<float_array id="id-mesh-8-normals-array" count="102"> 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 -0.9615591764450073 0.2745976448059082 0.0 -0.9615591764450073 0.2745976448059082 0.0 -0.9615591764450073 0.2745976448059082 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 -0.9999999403953552 0.0 0.0 -0.9999999403953552 0.0 0.0 -0.9999999403953552 0.0 0.0 0.0 0.9615592956542969 0.27459755539894104 0.0 0.9615592956542969 0.27459755539894104 0.0 0.9615592956542969 0.27459755539894104 0.9999999403953552 0.0 0.0 0.9999999403953552 0.0 0.0 0.9999999403953552 0.0 0.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 -0.9615591764450073 0.2745976448059082 0.0 0.0 1.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 0.9615591764450073 0.27459773421287537 0.0 0.9615591764450073 0.27459773421287537 0.0 0.9615591764450073 0.27459773421287537 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0</float_array>
+				<technique_common>
+				<accessor source="#id-mesh-8-normals-array" count="34" stride="3">
+					<param name="X" type="float"/>
+					<param name="Y" type="float"/>
+					<param name="Z" type="float"/>
+				</accessor>
+				</technique_common>
+			</source>
+			<vertices id="id-mesh-8-vertices">
+				<input semantic="POSITION" source="#id-mesh-8-positions"/>
+			</vertices>
+			<triangles count="2" material="id-trimat-9">
+				<input semantic="VERTEX" source="#id-mesh-8-vertices" offset="0"/>
+				<input semantic="NORMAL" source="#id-mesh-8-normals" offset="0"/>
+				<p> 0 1 2 0 21 1 </p>
+			</triangles>
+			<triangles count="10" material="id-trimat-10">
+				<input semantic="VERTEX" source="#id-mesh-8-vertices" offset="0"/>
+				<input semantic="NORMAL" source="#id-mesh-8-normals" offset="0"/>
+				<p> 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 6 23 7 9 24 10 25 26 27 28 29 30 31 32 33 </p>
+			</triangles>
+			<triangles count="2" material="id-trimat-11">
+				<input semantic="VERTEX" source="#id-mesh-8-vertices" offset="0"/>
+				<input semantic="NORMAL" source="#id-mesh-8-normals" offset="0"/>
+				<p> 3 4 5 3 22 4 </p>
+			</triangles>
+		</mesh>
+	</geometry>
+</library_geometries>
+<library_visual_scenes>
+	<visual_scene id="id-scene-1" name="scene">
+		<node id="g001" name="g001" type="NODE">
+			<matrix sid="transform"> 1.0 0.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0 0.0 1.0  </matrix>
+			<instance_geometry url="#id-mesh-8">
+				<bind_material>
+					<technique_common>
+						<instance_material symbol="id-trimat-9" target="#id-material-3"/>
+						<instance_material symbol="id-trimat-10" target="#id-material-7"/>
+						<instance_material symbol="id-trimat-11" target="#id-material-5"/>
+					</technique_common>
+				</bind_material>
+			</instance_geometry>
+		</node>
+	</visual_scene>
+</library_visual_scenes>
+<scene>
+	<instance_visual_scene url="#id-scene-1" />
+</scene>
+</COLLADA>
